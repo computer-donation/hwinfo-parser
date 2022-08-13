@@ -1,0 +1,28 @@
+{
+    "name": "tienvx/hwinfo-parser",
+    "description": "Parse output of hwinfo tool",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tienvx\\HwinfoParser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tienvx\\HwinfoParser\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tienvx",
+            "email": "tien.xuan.vo@gmail.com"
+        }
+    ]
+}
